@@ -1,16 +1,14 @@
-import WorkWithUs from "@/components/work-with-us";
-import TemplateGallery from "@/template-gallery";
-import React from "react";
 
-const page = () => {
+import Tiptap from '@/components/tiptap'
+import React from 'react'
+import "../../../styles/tiptap.css";
+function page() {
   return (
     <div>
-      <TemplateGallery />
-      {/* <div className="min-h-[70vh] flex flex-col items-center justify-center">
-        <WorkWithUs className="md:flex-row md:max-w-5xl " />
-      </div> */}
+      <Tiptap/>
+     
     </div>
-  );
-};
+  )
+}
 
-export default page;
+export default page

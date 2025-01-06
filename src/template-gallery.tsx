@@ -102,7 +102,8 @@ export default function TemplateGallery() {
             >
               <div className="relative group cursor-pointer">
                 <Image
-                  
+                  width={300}
+                  height={300}
                   src={template.image}
                   alt={template.title}
                   className="w-full h-[320px] object-cover"
